@@ -53,4 +53,4 @@ jobs:
         export PYTHONPATH="$(pwd)/memvid:$(pwd)/tests":$PYTHONPATH
         echo "PYTHONPATH:" $PYTHONPATH
         #
-        pytest --cov=./ --cov-report=xml:cov-report.xml --cov-report=term --cov-config=.coveragerc
+        pytest $(pwd)
